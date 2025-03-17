@@ -1,0 +1,104 @@
+
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box 0;
+
+}
+    body {
+        background-image: url('./IMG/wp2539066.jpg');
+        background-size: cover; /* Ajusta la imagen para cubrir todo el elemento */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+        
+
+     #container{
+
+            width: 1100px;
+            margin:0px auto;
+            border: 1px solid black;
+        }
+
+
+     header{
+            background-color:black;
+            height: 100px;;
+            color: aliceblue;
+            text-align: center;
+            line-height:100px;
+            border-bottom: dashed white;
+        }
+
+        nav{
+            background-color: aquamarine;
+            height:50px;
+            border-bottom:1px solid white;
+        }
+
+        nav ul li{
+            float: left;
+            list-style:none;
+            margin:10px;
+            line-height:30px;
+          
+        }
+
+        .clearfix{
+            clear: both;
+        }
+
+        #content{
+            float: left;
+            width: calc(80% -80px);
+            min-height:500;
+            background-color:rgb(37, 20, 37);
+            padding: 40px;
+            height: 400px;
+
+            
+        }
+
+        aside{
+            
+            width: calc(20% -20px);
+            min-height:500;
+            background-color:black;
+            padding: 10px;
+            padding: left 10px;
+            padding: right 10px;
+            color: aliceblue;
+            text-align: center;
+            height: 460px;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            height: 50px;
+            line-height:50px;
+            border :1px solid white;
+            
+    
+        }
+
+        .article{
+            color: aliceblue;
+            margin-top:15px;
+            margin: bottom 15px;
+            padding-bottom:10px;
+            border-bottom:1px solid black;
+
+        }
+
+        .article:first-child{
+            padding: top 10px;;
+            border-top:1px solid black;
+        }
+
+        article h2{
+            font: size 35px;;
+        }
+
+        
